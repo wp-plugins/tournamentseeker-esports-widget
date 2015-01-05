@@ -1,7 +1,12 @@
 <?php
 /*
 Plugin Name: Tournament Seeker eSports Widget
+Plugin URI: http://www.tournamentseeker.com/api
 Description: Display details about your favorite upcoming eSports events, straight from TournamentSeeker.com! 
+Author: tournamentseeker
+Author URI: http://www.tournamentseeker.com
+Version: 1.0.1
+License: GPL-2	
 
 */
 // Creating the widget

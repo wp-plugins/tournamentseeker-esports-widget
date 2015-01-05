@@ -1,6 +1,6 @@
 === TournamentSeeker eSports Widget ===
 Contributors: tournamentseeker
-Tags: widget, tournamentseeker, eSports
+Tags: widget, tournamentseeker, tournament, seeker, tournament seeker, eSports
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: trunk

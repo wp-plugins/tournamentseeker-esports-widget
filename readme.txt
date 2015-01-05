@@ -40,10 +40,16 @@ No, this plugin is specific to the eSports listings featured on http://www.tourn
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated event listing styling
+
 = 1.0 =
 * Initial public release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Updated event listing styling
 
 = 1.0 =
 * Initial public release

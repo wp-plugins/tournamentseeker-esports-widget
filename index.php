@@ -5,7 +5,7 @@ Plugin URI: http://www.tournamentseeker.com/api
 Description: Display details about your favorite upcoming eSports events, straight from TournamentSeeker.com! 
 Author: tournamentseeker
 Author URI: http://www.tournamentseeker.com
-Version: 1.0.1
+Version: 1.0.2
 License: GPL-2	
 
 */
@@ -198,19 +198,19 @@ class tournament_seeker_esports_event_widget extends WP_Widget
 }
 
 .esports-event-details {
-	list-style-type: none;
+	list-style-type: none !important;
 	margin: 10px 10px 10px 5px !important;
 	padding: 0px;
-
 }
 
 .esports-event-details li {
-
+	background: none !important;
+	font-size: 12px !important;
+	text-align: center;
 }
 
 .esports-event-details li .header {
-	display: inline-block;
-	width: 70px;
+	display: block;
 	font-weight: bold;
 	color: #3fb0da;
 }
@@ -276,7 +276,6 @@ class tournament_seeker_esports_event_widget extends WP_Widget
 				<span class="ts-esports-event-date"><?=date('M jS, Y', strtotime($event->eventStartTime))?> &#149; <?=date('g:ia', strtotime($event->eventStartTime))?></span>
 			</div>
 			<ul class="esports-event-details">
-				<!-- <li><span class="header">Date: </span></li> -->
 				<?php if($event->isOnlineEvent) : ?>
 					<li><span class="header">Location: </span><span>Online</span></li>
 				<?php else : ?>
